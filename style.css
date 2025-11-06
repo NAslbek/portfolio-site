@@ -1,0 +1,164 @@
+/* Umumiy sozlamalar */
+body {
+    background-color: #181842;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+/* Navigatsiya menyusi */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #43a1eea9;
+    padding: 15px;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffce47;
+    transform: scale(1.1);
+}
+
+/* Asosiy bo‘lim */
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+
+.name {
+    font-size: 2.2em;
+    color: #43a1ee;
+    text-shadow: 0 0 10px #43a1eea9;
+}
+
+.letter {
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+.pic {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.pic:hover {
+    transform: scale(1.05);
+}
+
+/* Bo‘limlar */
+.section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section h2 {
+    color: #43a1ee;
+    margin-bottom: 20px;
+}
+
+/* Ko‘nikmalar */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills div {
+    background-color: #43a1ee40;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.skills div:hover {
+    background-color: #ffce47;
+    color: #181842;
+}
+
+/* Loyihalar */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background-color: #43a1ee33;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #43a1ee66;
+    transform: translateY(-5px);
+}
+
+/* Ijtimoiy tarmoqlar */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #43a1ee93;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 40px auto;
+    width: fit-content;
+}
+
+.media {
+    background-color: #517bac;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.media:hover {
+    background-color: #ffce47;
+    color: #181842;
+    transform: translateY(-3px);
+}
+
+/* Aloqa */
+#contact a {
+    color: #43a1ee;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #ffce47;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #12123b;
+    color: #888;
+    font-size: 0.9em;
+}
